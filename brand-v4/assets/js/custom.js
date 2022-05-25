@@ -1,43 +1,172 @@
-///////////////*****//////////////////
-// RESPONSIVE NAVIGATION
-// OPEN BTN
-  $(document).ready(function () {
-    $("#navbar").on("click", function() {
-      $(".nveMenu").addClass("is-opened");
-      $(".overlay").addClass("is-on");
-    });
+$('.bannerLeft-carousel').owlCarousel({
+    loop: true,
+    margin: 10,
+    autoplay: true,
+    slideSpeed: 1000,
+    autoplaySpeed: 2000,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+})
 
-    $(".overlay").on("click", function() {
-      $(this).removeClass("is-on");
-      $(".nveMenu").removeClass("is-opened");
-    });
-  });
-// CLOSE BTN
-  $(".overlay").on("click", function() {
-    $(this).removeClass("is-on");
-    $(".nveMenu").removeClass("is-opened");
-  });
 
-  $(".close-btn-nav").click(function(){
-  $(".nveMenu").removeClass("is-opened");
-  $(".overlay").removeClass("is-on");
-  });
-  // RESPONSIVE NAVIGATION
-  // 
-  // ACTIVE JS START
-$(document).ready(function(){
-  $('ul li span').click(function(){
-    $('li span').removeClass("active-class");
-    $(this).addClass("active-class");
-});
-});
-  // ACTIVE JS END
-  // 
-  // PRELOADER START
-$(document).ready(function() {
-  setTimeout(function() {
-  $('.preloader').fadeOut('slow');
-            }, 2000);
-});
-  // PRELOADER END
-///////////////*****//////////////////
+
+$('.bannerRight-carousel').owlCarousel({
+    loop: true,
+    autoplay: true,
+    margin: 10,
+    slideSpeed: 1000,
+    autoplaySpeed: 2000,
+    nav: false,
+    dots: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        600: {
+            items: 3
+        },
+        1000: {
+            items: 5
+        }
+    }
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$('[data-tab]').on('click', function (e) {
+    $(this).addClass('active').siblings('[data-tab]').removeClass('active')
+    /* $(this).siblings('[data-content=' + $(this).data('tab') + ']').addClass('active').siblings('[data-content]').removeClass('active')
+    e.preventDefault() */
+
+    $(this).closest('.product-head-main').find('[data-content]').removeClass('active')
+    $(this).closest('.product-head-main').find('[data-content=' + $(this).data('tab') + ']').addClass('active')
+
+    /* $(this).addClass('active').siblings('[data-tab]').removeClass('active').siblings('[data-content=' + $(this).data('tab') + ']').addClass('active').siblings('[data-content]').removeClass('active') */
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
