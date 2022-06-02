@@ -17,33 +17,5 @@
 
 <body>
 	<header>
-		<div class="mobile-menu">
-			<div class="circle" id="navbar"><i class="fa fa-bars" aria-hidden="true"></i></div>
-
-
-			<div class="nveMenu text-left">
-			<div class="mobile-cross close-btn-nav" id="navbar"><i class="fas fa-times" aria-hidden="true"></i></div>
-				<div>
-					<a href="index.php"><img src="images\logo.png" class="img-fluid"></a>
-				</div>
-				<ul class="navlinks p-0 mt-4">
-					<li><a href="#">Get In Touch</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Case Studies</a></li>
-					<li><a href="#">Gallery</a></li>
-				</ul>
-			</div>
-			<div class="overlay"></div>
-		</div>
+		
 	</header>
-    
-<!-- PRELOADER START -->
-	<div class="preloader"></div>
-<!-- PRELOADER END -->
-
-	
-<!-- 
-	fancybox images link
-	<a data-fancybox="gallery" href="images/logo.png"><img src="images/logo.png"></a>
-	<a data-fancybox="gallery" href="images/logo.png"><img src="images/logo.png"></a>
- -->
