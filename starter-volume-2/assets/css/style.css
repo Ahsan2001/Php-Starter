@@ -1,0 +1,67 @@
+h1, h2, h3, h4, h5, h6, p, span, ul, li, a, .btn-default, textarea {
+	margin: 0;
+	padding: 0;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+a:hover {
+	text-decoration: none;
+}
+a:focus {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+
+
+
+
+
+
+
+
+/* shash kay  */
+
+/* button {
+    background: linear-gradient(to left,#AD1115 50%, #fff 50%);
+    background-position: left bottom;
+    transition: all .6s ease-out;
+    background-size: 200% 100%;
+}
+button:hover{
+  background-position: right bottom;
+} */
+
+
+
+
+
+
+
+
+
+
+/* inner scroll side bar  */
+
+
+/* className::-webkit-scrollbar {
+	width: 4px;
+} */
+/* Track */
+
+/* className::-webkit-scrollbar-track {
+	background: #d4d4d4 ;
+} */
+/* Handle */
+
+/* className::-webkit-scrollbar-thumb {
+	background: #790101 ;
+} */
+/* Handle on hover */
+
+/* className::-webkit-scrollbar-thumb:hover {
+	background: #8b8b8b;
+}  */
