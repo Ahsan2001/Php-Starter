@@ -1,1 +1,6 @@
+Change evn database name to your name
 
+
+Running commands in laragon server 
+ ####     composer update
+ ####     php artisan key:generate
