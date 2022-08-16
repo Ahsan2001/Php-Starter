@@ -21,5 +21,14 @@ $add = "8 St James's Square, London, United Kingdom, SW1Y 4JU";
 
 
 
+     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+        <div class="logo_area">
+            <a href="index.php">
+            <img src="<?php echo $logo; ?>" alt="LOGO">
+            </a>
+        </div>
+    </div>
+
+
 
 
