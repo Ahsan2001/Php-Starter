@@ -3,7 +3,6 @@
 
 
 
-
 <div class="col-sm-9 ban-form">
                     <form class="cmxform" id="bannerform" method="POST" action="<?php echo $baseurl."/leads/index.php" ?>">
                         <input type="text" class="jun" name="gender">
